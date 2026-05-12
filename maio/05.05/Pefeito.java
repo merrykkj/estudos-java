@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Perfeito
+public class Pefeito
 {
 	public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
-		System.out.print("Digite um numero positivo: ");
+		System.out.print("Digite um numero positivo");
 		int m = sc.nextInt();
 		
 	while(m <= 0){
@@ -23,7 +23,7 @@ public class Perfeito
 	    if (soma == m) {
 	        System.out.println(m + "e perfeito");
 	    } else {
-	        System.out.println(m + " nao e perfeito");
+	        System.out.println(m + "nao e perfeito");
 
 	    }
 	}
