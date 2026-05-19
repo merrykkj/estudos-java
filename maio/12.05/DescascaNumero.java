@@ -13,13 +13,18 @@ public class DescascaNumero
 		} while (n <= 0);
         
         System.out.println("\ndigitos de " + n);
-        
+
+        int soma = 0;
        while(n >= 10) {
-        System.out.print(n%10);
+		int digito = n%10;
+		soma = soma + digito;
+        System.out.println(digito);
         n = n / 10;
         }
         
         System.out.println(n); //não esquecer do último digito
+		soma = soma + n;
+		System.out.println("soma dos digitos: " + soma);
 		sc.close();
 	}
 }
