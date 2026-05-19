@@ -21,7 +21,7 @@ public class DescascaNumero
         System.out.println(digito);
         n = n / 10;
         }
-        
+		
         System.out.println(n); //não esquecer do último digito
 		soma = soma + n;
 		System.out.println("soma dos digitos: " + soma);
