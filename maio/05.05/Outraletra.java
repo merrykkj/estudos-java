@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import javax.swing.JOptionPane;
 public class Outraletra
 {
 	public static void main(String[] args) {

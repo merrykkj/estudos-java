@@ -5,7 +5,7 @@ public class DescascaNumero
 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
-		int n, i;
+		int n;
 
 		do {
 			System.out.println("digite um inteiro positivo: ");
