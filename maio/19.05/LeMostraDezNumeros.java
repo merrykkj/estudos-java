@@ -1,5 +1,4 @@
 //Ler 10 numeros e depois exibi-los na ordem inversa em que foram digitados
-
 import java.util.Scanner;
 public class LeMostraDezNumeros {
     public static void main(String[] args) {
